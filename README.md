@@ -13,10 +13,13 @@
 * 使用内存来实现持久层。
 
 
-ui:展示层，主要负责数据展示和用户交互。
-domain:业务层，利用抽象的Repository和Service接口实现业务逻辑UseCase，UseCase作为Api接口提供给三方使用。
-data:持久层具体实现。
-di: 通过ServiceLocator简单实现依赖注入，达到控制反转。
+ui:展示层，主要负责数据展示和用户交互。  
+
+domain:业务层，利用抽象的Repository和Service接口实现业务逻辑UseCase，UseCase作为Api接口提供给三方使用。  
+
+data:持久层具体实现。  
+
+di: 通过ServiceLocator简单实现依赖注入，达到控制反转。  
 
 
 domain层和data层中的代码，根据需求可能直接移动到服务端，就是常见到Server/Client模式。
