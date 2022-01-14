@@ -1,6 +1,11 @@
 # MockApp
 通过分层和接口的架构设计，实现可以快速Mock,单元测试的APP实例。
 
+![](./images/login.jpg)
+![](./images/1.jpg)
+![](./images/2.jpg)
+![](./images/3.jpg)
+
 ## 功能
 * 登录，注册。
 * 发帖，帖子列表，评论。
@@ -21,6 +26,9 @@ data:持久层具体实现。
 
 di: 通过ServiceLocator简单实现依赖注入，达到控制反转。  
 
+![](./images/4.jpg)
 
 domain层和data层中的代码，根据需求可能直接移动到服务端，就是常见到Server/Client模式。
 
+
+![](./images/5.jpg)
