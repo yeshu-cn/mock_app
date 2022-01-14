@@ -12,7 +12,6 @@ class FakeUserService extends UserService {
   @override
   Future<String> createUser(UserDTO user) async {
     user.uid = Uuid().v4();
-    print('----${user.toMap()}');
     User item = User.fromMap(user.toMap());
     return await _userRepository.addUser(item);
   }
