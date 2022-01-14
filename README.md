@@ -1,10 +1,9 @@
 # MockApp
 通过分层和接口的架构设计，实现可以快速Mock,单元测试的APP实例。
 
-![](./images/login.jpg)
-![](./images/1.jpg)
-![](./images/2.jpg)
-![](./images/3.jpg)
+![](./images/login.jpg)![](./images/1.jpg)![](./images/2.jpg)![](./images/3.jpg)
+
+
 
 ## 功能
 * 登录，注册。
